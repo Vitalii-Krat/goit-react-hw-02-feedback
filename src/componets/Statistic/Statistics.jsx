@@ -6,7 +6,7 @@ const Statistics = ({ good, neutral, bad, totalFeeds, positivePercentage }) => {
     <StatisticsList>
       <StatisticsItem key="good">Good: {good}</StatisticsItem>
       <StatisticsItem key="neutral">Neutral: {neutral}</StatisticsItem>
-      <StatisticsItem key="bad">Bad: {bad}.</StatisticsItem>
+      <StatisticsItem key="bad">Bad: {bad}</StatisticsItem>
       <StatisticsItem key="total">Total: {totalFeeds}</StatisticsItem>
       <StatisticsItem key="percentage">
         Positive feedback: {positivePercentage}%
